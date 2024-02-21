@@ -1,7 +1,7 @@
 # TOUCH ON WINDOWS
 A command line tool to simulate touch on Windows.
 ## Installation
-download the latest release from [here](https://github.com/0x0000007f/touch/releases/latest).
+download the latest release from [here](https://github.com/Xu-Mj/touch/releases/latest).
 set the path to the downloaded file in your PATH variable.
 
 **Example:**
