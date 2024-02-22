@@ -2,18 +2,14 @@
 A command line tool to simulate touch on Windows.
 ## Installation
 download the latest release from [here](https://github.com/Xu-Mj/touch/releases/latest).
-set the path to the downloaded file in your PATH variable.
-
-**Example:**
-The downloaded file path is `D:\touch\touch.exe`
-execute the command in power shell to set the path(replace 'D:\touch\' to your installation):
-
+run below command to install it.
+```shell
+  touch.exe -i
+  # or
+  touch.exe --install
 ```
-$addPath='D:\touch\'; $target='User'; $path = [Environment]::GetEnvironmentVariable('Path', $target); if($path -match ";$"){ $newPath = $path + $addPath; } else { $newPath = $path + ';' + $addPath; } [Environment]::SetEnvironmentVariable('Path', $newPath, $target)
-```
-
 ## Usage
-```
+```shell
 
 Usage: touch.exe [OPTIONS] [filename]...
 
